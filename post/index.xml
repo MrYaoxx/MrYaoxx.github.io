@@ -6,7 +6,18 @@
     <description>Recent content in Posts on MrYaoxx&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
-    <lastBuildDate>Sun, 08 Aug 2021 19:50:27 +0800</lastBuildDate><atom:link href="https://mryaoxx.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Aug 2021 13:26:27 +0800</lastBuildDate><atom:link href="https://mryaoxx.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo使用html编写博客</title>
+      <link>https://mryaoxx.github.io/post/htmlblog/</link>
+      <pubDate>Mon, 09 Aug 2021 13:26:27 +0800</pubDate>
+      
+      <guid>https://mryaoxx.github.io/post/htmlblog/</guid>
+      <description>在 config.toml 中加入
+ [markup] defaultMarkdownHandler = &#34;goldmark&#34; [markup.goldmark] [markup.goldmark.renderer] unsafe = true  或
+ [markup] defaultMarkdownHandler = &#34;blackfriday&#34;   </description>
+    </item>
+    
     <item>
       <title>爆零</title>
       <link>https://mryaoxx.github.io/post/baoling/</link>

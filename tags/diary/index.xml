@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diary on MrYaoxx&#39;s Blog</title>
+    <link>https://mryaoxx.github.io/tags/diary/</link>
+    <description>Recent content in diary on MrYaoxx&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language>
+    <lastBuildDate>Sun, 08 Aug 2021 19:50:27 +0800</lastBuildDate><atom:link href="https://mryaoxx.github.io/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>爆零</title>
+      <link>https://mryaoxx.github.io/post/baoling/</link>
+      <pubDate>Sun, 08 Aug 2021 19:50:27 +0800</pubDate>
+      
+      <guid>https://mryaoxx.github.io/post/baoling/</guid>
+      <description>#baoling { font-weight: bold; animation: animation 5s infinite; -webkit-animation: animation 5s infinite; } @keyframes animation { from { color: red; } 14.3% { color: orange; } 28.6% { color: yellow; } 42.8% { color: green; } 57.1% { color: teal; } 71.4%{ color: blue; } 85.7% { color: purple; } to { color: red; } }  又爆零了...  数论好难啊&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

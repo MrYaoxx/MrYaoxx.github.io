@@ -7,7 +7,7 @@
 
 
 <meta name="generator" content="Hugo 0.87.0" />
-<title>About</title>
+<title>Hugo使用html编写博客</title>
 <link rel="shortcut icon" href="https://mryaoxx.github.io/images/favicon.ico">
 <link rel="stylesheet" href="https://mryaoxx.github.io/css/style.css">
 <link rel="stylesheet" href="https://mryaoxx.github.io/css/highlight.css">
@@ -19,23 +19,29 @@
 
 
 
-<meta property="og:title" content="About" />
-<meta property="og:description" content="MrYaoxx   Javascript   console.log(&#39;Hello World&#39;);   C&#43;&#43;   cout &lt;&lt; &#34;Hello World&#34;;   Java   System.out.println(&#34;Hello World&#34;);   Go   fmt.Println(&#34;Hello World&#34;); " />
+<meta property="og:title" content="Hugo使用html编写博客" />
+<meta property="og:description" content="在 config.toml 中加入
+ [markup] defaultMarkdownHandler = &#34;goldmark&#34; [markup.goldmark] [markup.goldmark.renderer] unsafe = true  或
+ [markup] defaultMarkdownHandler = &#34;blackfriday&#34;   " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mryaoxx.github.io/about/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2021-08-08T15:07:13+08:00" />
-<meta property="article:modified_time" content="2021-08-08T15:07:13+08:00" />
+<meta property="og:url" content="https://mryaoxx.github.io/post/htmlblog/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-08-09T13:26:27+08:00" />
+<meta property="article:modified_time" content="2021-08-09T13:26:27+08:00" />
 
 
 
-<meta itemprop="name" content="About">
-<meta itemprop="description" content="MrYaoxx   Javascript   console.log(&#39;Hello World&#39;);   C&#43;&#43;   cout &lt;&lt; &#34;Hello World&#34;;   Java   System.out.println(&#34;Hello World&#34;);   Go   fmt.Println(&#34;Hello World&#34;); "><meta itemprop="datePublished" content="2021-08-08T15:07:13+08:00" />
-<meta itemprop="dateModified" content="2021-08-08T15:07:13+08:00" />
-<meta itemprop="wordCount" content="15">
+<meta itemprop="name" content="Hugo使用html编写博客">
+<meta itemprop="description" content="在 config.toml 中加入
+ [markup] defaultMarkdownHandler = &#34;goldmark&#34; [markup.goldmark] [markup.goldmark.renderer] unsafe = true  或
+ [markup] defaultMarkdownHandler = &#34;blackfriday&#34;   "><meta itemprop="datePublished" content="2021-08-09T13:26:27+08:00" />
+<meta itemprop="dateModified" content="2021-08-09T13:26:27+08:00" />
+<meta itemprop="wordCount" content="17">
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="MrYaoxx   Javascript   console.log(&#39;Hello World&#39;);   C&#43;&#43;   cout &lt;&lt; &#34;Hello World&#34;;   Java   System.out.println(&#34;Hello World&#34;);   Go   fmt.Println(&#34;Hello World&#34;); "/>
+<meta name="twitter:title" content="Hugo使用html编写博客"/>
+<meta name="twitter:description" content="在 config.toml 中加入
+ [markup] defaultMarkdownHandler = &#34;goldmark&#34; [markup.goldmark] [markup.goldmark.renderer] unsafe = true  或
+ [markup] defaultMarkdownHandler = &#34;blackfriday&#34;   "/>
 
 
     </head>
@@ -55,33 +61,30 @@
         
 <article class="post">
     <header>
-        <h1>About</h1>
+        <h1>Hugo使用html编写博客</h1>
         <h2 class="subtitle"></h2>
         <h2 class="headline">
-        August 8, 2021
+        August 9, 2021
         <br>
         
         </h2>
     </header>
     <section id="post-body">
-        <h1>MrYaoxx</h1>
-<hr>
-<h4> Javascript </h4>
+        <p>在 <code>config.toml</code> 中加入</p>
 <pre>
-    console.log('Hello World');
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 </pre>
-<h4> C++ </h4>
+<p>或</p>
 <pre>
-    cout &lt;&lt; "Hello World";
-</pre>
-<h4> Java </h4>
-<pre>
-    System.out.println("Hello World");
-</pre>
-<h4> Go </h4>
-<pre>
-    fmt.Println("Hello World");
-</pre>
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+</pre><blockquote>
+</blockquote>
+
     </section>
 </article>
 
@@ -94,7 +97,7 @@
     </div>
     
     <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fmryaoxx.github.io%2fabout%2f - About "><span class="icon-twitter"> tweet</span></a>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fmryaoxx.github.io%2fpost%2fhtmlblog%2f - Hugo%e4%bd%bf%e7%94%a8html%e7%bc%96%e5%86%99%e5%8d%9a%e5%ae%a2 "><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -114,10 +117,6 @@
 
     
     
-    
-        <li>
-            <a href="https://mryaoxx.github.io/post/htmlblog/">Hugo使用html编写博客<aside class="dates">Aug 9 2021</aside></a>
-        </li>
     
         <li>
             <a href="https://mryaoxx.github.io/post/baoling/">爆零<aside class="dates">Aug 8 2021</aside></a>
